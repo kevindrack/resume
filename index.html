@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Responsive CV using Html und CSS</title>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="left_side">
+				<div class="profileText">
+					<div class="imgBx">
+						<img src="img.jpg" />
+					</div>
+					<h2>
+						Kevin Drack<br />
+						<span>Fahrer</span>
+					</h2>
+				</div>
+				<div class="contactInfo">
+					<h3 class="title">Kontakt</h3>
+					<ul>
+						<li>
+							<span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+							<span class="text">Alter Bahndamm 19, 53797 Lohmar</span>
+						</li>
+						<li>
+							<span class="icon"
+								><i class="fa-solid fa-mobile-screen"></i
+							></span>
+							<span class="text">0170 - 979 069 2</span>
+						</li>
+						<li>
+							<span class="icon"><i class="fa-regular fa-envelope"></i></span>
+							<span class="text">kevindrack@gmx.de</span>
+						</li>
+					</ul>
+				</div>
+				<div class="contactInfo education">
+					<h3 class="title">Schulbildung</h3>
+					<ul>
+						<li>
+							<h5>02.2017 - 08.2018</h5>
+							<h4>Abbruch wgn. Gesundheisproblemen</h4>
+							<h4>Abendgymnasium Rhein-Sieg</h4>
+						</li>
+						<li>
+							<h5>10.2012 - 02.2014</h5>
+							<h4>Fachoberschulreife</h4>
+							<h4>VHS-Siegburg</h4>
+						</li>
+						<li>
+							<h5>08.2000 - 06.2006</h5>
+							<h4>Hauptschulabschluss Klasse 9</h4>
+							<h4>Gemeinschaftshauptschule Lohmar</h4>
+						</li>
+					</ul>
+				</div>
+				<div class="contactInfo language">
+					<h3 class="title">Sprachen</h3>
+					<ul>
+						<li>
+							<span class="text">Deutsch</span>
+							<span class="percent">
+								<div style="width: 100%"></div>
+							</span>
+						</li>
+						<li>
+							<span class="text">Englisch</span>
+							<span class="percent">
+								<div style="width: 50%"></div>
+							</span>
+						</li>
+						<li>
+							<span class="text">Koreanisch</span>
+							<span class="percent">
+								<div style="width: 2%"></div>
+							</span>
+						</li>
+						<li>
+							<span class="text">Chinesisch</span>
+							<span class="percent">
+								<div style="width: 2%"></div>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="right_side">
+				<!-- <div class="about">
+					<h2 class="title2">Profile</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa iste,
+						debitis sit aperiam voluptatum consequuntur tempora aliquid quisquam
+						eveniet. Modi, veniam? Quas similique beatae quos voluptatem
+						perferendis expedita odio quae!
+						<br />
+						<br />
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa iste,
+						debitis sit aperiam voluptatum consequuntur tempora aliquid quisquam
+						eveniet. Modi, veniam? Quas similique beatae quos voluptatem
+						perferendis expedita odio quae!
+					</p>
+				</div> -->
+				<div class="about">
+					<h2 class="title2">Berufliche Weiterbildung</h2>
+					<div class="box">
+						<div class="year_company">
+							<h5>08.2022 - 11.2022</h5>
+							<h5>
+								bm-gesellschaft<br />
+								für bildung in medienberufen
+							</h5>
+						</div>
+						<div class="text">
+							<h4>Umschulung Fachinformatiker in Anwendungsentwicklung</h4>
+							<p>
+								Abbruch in Absprache mit Sachbearbeiter, wegen körperlichen und
+								Psychischen Beschwerden.
+							</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="year_company">
+							<h5>04.2021 - 06.2021</h5>
+							<h5>
+								Tertia<br />
+								Berufsförderung GmbH &amp; Co. KG
+							</h5>
+						</div>
+						<div class="text">
+							<h4>Bildungsmaßnahme - Grundkompetenzen</h4>
+							<p>
+								Erwerb von Grundkompentenzen, war als Vorschaltmaßnahme vor der
+								Umschulung angesetzt.
+							</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="year_company">
+							<h5>04.2020 - 02.2021</h5>
+							<h5>Context GmbH</h5>
+						</div>
+						<div class="text">
+							<h4>Bildungsmaßnahme - Jobcoaching</h4>
+							<p>-</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="year_company">
+							<h5>06.2014 - 07.2014</h5>
+							<h5>
+								Malteser<br />
+								Schule Bonn
+							</h5>
+						</div>
+						<div class="text">
+							<h4>Rettungssanitäter Grundlehrgang</h4>
+							<p>Grundausbildung zum Rettungssanitäter | Umfang: 160 Std.</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="year_company">
+							<h5>07.2011 - 08.2012</h5>
+							<h5>Fahrschule Kreiter</h5>
+						</div>
+						<div class="text">
+							<h4>LKW-Führerschein Klasse C und CE (IHK)</h4>
+							<p>
+								Beschleunigte Grundqualifikation gemäß § 2 Abs. 4 BkrFQV für den
+								Güterverkehr
+							</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="year_company">
+							<h5>12.2010 - 03.2011</h5>
+							<h5>Fahrschule Kreiter</h5>
+						</div>
+						<div class="text">
+							<h4>Bus-Führerschein Klasse D und DE (IHK)</h4>
+							<p>
+								Beschleunigte Grundqualifikation gemäß § 2 Abs. 4 BkrFQV für den
+								Personenverkehr
+							</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="year_company">
+							<h5>08.2007 - aktuell</h5>
+							<h5>Jobcenter</h5>
+						</div>
+						<div class="text">
+							<h4>Arbeitssuchend gemeldet</h4>
+							<p>-</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="year_company">
+							<h5>10.2006 - 02.2007</h5>
+							<h5>
+								ISBB Institut<br />
+								für schulische<br />
+								und berufliche<br />
+								Bildung in Köln
+							</h5>
+						</div>
+						<div class="text">
+							<h4>Bildungsmaßnahme</h4>
+							<p>-</p>
+						</div>
+					</div>
+				</div>
+				<div class="about">
+					<h2 class="title2">Studium</h2>
+					<div class="box">
+						<div class="year_company">
+							<h5>09.2014 - 03.2016</h5>
+							<h5>SAE Institute Köln</h5>
+						</div>
+						<div class="text">
+							<h4>Audio Engineering</h4>
+							<p>Studium der Tontechnik mit Fokus auf Tonstudio.</p>
+						</div>
+					</div>
+				</div>
+				<div class="about special">
+					<h2 class="title2">Spezielle Qualifikationen</h2>
+					<div class="box">
+						<div class="text">
+							<h4>Führerscheinklassen</h4>
+							<p>A, B, BE, C, CE, D, DE</p>
+						</div>
+						<div class="text">
+							<h4>Personenbefürderungsschein</h4>
+							<p>vorhanden für Taxi und Mietwagen</p>
+						</div>
+					</div>
+				</div>
+				<div class="about special">
+					<h2 class="title2">Ehrenamtiliche Tätigkeiten</h2>
+					<div class="box">
+						<div class="text">
+							<h4>Jugendfeuerwehr</h4>
+							<p>
+								Aktives Mitglied der Jugendfeuerwehr Lohmar<br />
+								Löschzug Wahlscheid<br />
+								(2004|2005 bis 2006)
+							</p>
+						</div>
+						<div class="text">
+							<h4>Freiweillige Feuerwehr</h4>
+							<p>
+								Aktives Mitglied bei der Freiwilligen Feuerwehr der Stadt
+								Lohmar<br />
+								(2007 bis 2008)
+							</p>
+						</div>
+						<div class="text">
+							<h4>Deutsche Rote Kreuz</h4>
+							<p>
+								Aktives Bereitschaftsmitglied beim Deutschen Roten Kreuz des
+								Ortsverbandes der Stadt Lohmar<br />
+								(01.2010 bis 2018)
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="about skills">
+					<h2 class="title2">Professional Skills</h2>
+					<div class="box">
+						<h4>HTML</h4>
+						<div class="percent">
+							<div style="width: 75%"></div>
+						</div>
+					</div>
+					<div class="box">
+						<h4>CSS</h4>
+						<div class="percent">
+							<div style="width: 35%"></div>
+						</div>
+					</div>
+					<div class="box">
+						<h4>Javascript</h4>
+						<div class="percent">
+							<div style="width: 15%"></div>
+						</div>
+					</div>
+					<div class="box">
+						<h4>Photoshop</h4>
+						<div class="percent">
+							<div style="width: 40%"></div>
+						</div>
+					</div>
+				</div> -->
+				<div class="about interest">
+					<h2 class="title2">Hobbys</h2>
+					<ul>
+						<li><i class="fa-solid fa-guitar"></i> Musik machen</li>
+						<li><i class="fa-solid fa-computer"></i> IT Allgemein</li>
+						<li><i class="fa-solid fa-square-binary"></i> Programmieren</li>
+						<li><i class="fa-solid fa-photo-film"></i> Medien erstellen</li>
+						<li><i class="fa-solid fa-user-group"></i> Freunde treffen</li>
+						<li><i class="fa-solid fa-motorcycle"></i> Motorrad fahren</li>
+						<li><i class="fa-solid fa-gamepad"></i> Gaming</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
